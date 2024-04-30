@@ -64,6 +64,9 @@ Day 3: [XR et l'industrie](WorkshopPerDay/2024_07_18.md)  ([I](https://github.co
   - Pecha-Kucha de groupe sur la recherche de la meilleur application de réaltié mixed du marché.
 
 
+Casques disponibles théoriquement durant la formation:  
+[Les casques disponibles](https://github.com/EloiStree/2024_07_01_HelloUnityShieldDrone/issues/10)  
+
 > La description de l'atelier fournie ici peut être sujette à des changements à tout moment, mais les principaux éléments sont présentés ci-dessous.
 > 
 > La dernière fois que j'ai mentionné que je pouvais parler d'Unity et de la réalité virtuelle pendant des mois, cela s'est finalement transformé en un cours de 5 mois. L'objectif de cette formation n'est pas 
