@@ -54,7 +54,7 @@ Day 3: [XR et l'industrie](2024_07_18.md)
   - Théorie sur ce qui est utilisable en XR 
   - Installer SideQuest et sideloader ça première application. 
 - Pratiquer avec Unity3D la création une première application XR en prolongeant l'exercice des développeurs.
-  - Démonstraction de comment créer une appication XR avec Unity3D
+  - Démonstration de comment créer une appication XR avec Unity3D
   - "Hello Cube" Apprendre à builder une APK d'un cube en XR
   - Pratiquer la création d'un package de niveau pour drone à l'aide d'un outil du package manager.
   - Exporter le package créé  sur GitHub pour une utilisation dans un projet de groupe.
