@@ -19,7 +19,7 @@ Day 3: [Mirror et Job System](2024_07_03.md)
 Day 4: [LOD et Optimisation](2024_07_04.md)  
 Day 5: [Android XR ](2024_07_05.md)  
 
-**Designer**
+**Designer**  
 Day 1: [Les bases de la XR avec Meta](2024_07_16.md)  
 Day 2: [Bonjour Unity XR](2024_07_17.md)  
 Day 3: [XR et l'industrie](2024_07_18.md)  
