@@ -70,3 +70,14 @@ Day 3: [XR et l'industrie](WorkshopPerDay/2024_07_18.md)
  d'aborder tous les aspects, car l'informatique est un domaine qui demande une vie entière d'apprentissage.
 
 > ⚠️ Important : Ce cours ne couvre pas les pratiques actuelles de création d'applications en XR, car celles-ci évoluent littéralement tous les 6 mois. Il est impossible de rester constamment à jour sans être activement impliqué dans le domaine. Ce n'est pas ma situation. Il existe des YouTubers spécialisés dans ce domaine, et tout cours construit sur ce sujet se référera de toute façon à eux.
+
+## Certification Unity3D 2024  
+  
+La formation dans ça globalité à une orientation vers la certification Unity3D.  
+  
+Vous pouvez trouver ici un document que j'utilisai en 2017 sur le sujet:  
+[https://docs.google.com/spreadsheets/d/1TI_-X7T4Dh67LKkINNmpfvuofxn3RCUhHVNInaRRUsw/edit?pli=1#gid=0](https://docs.google.com/spreadsheets/d/1TI_-X7T4Dh67LKkINNmpfvuofxn3RCUhHVNInaRRUsw/edit?pli=1#gid=0)  
+  
+Une autre Google Sheet sera fait où pour voir quel point de la certification peu être abordé durant ce cours.  
+[ Ajouter le lien ici plus tard ]
+
