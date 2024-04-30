@@ -13,16 +13,16 @@ Créer des applications sur les Quests, Android en général, demande de parler 
 Apprendre les bases de ce qu'est la XR et pratiquer via la mise en place d'un circuit de drones créé à 12 via le package manager.  
 
 **Developeur:**    
-Day 1: [Git Package](2024_07_01.md)  
-Day 2: [Webscoket et Rotation](2024_07_02.md)   
-Day 3: [Mirror et Job System](2024_07_03.md)  
-Day 4: [LOD et Optimisation](2024_07_04.md)  
-Day 5: [Android XR ](2024_07_05.md)  
+Day 1: [Git Package](2024_07_01)  
+Day 2: [Webscoket et Rotation](2024_07_02)   
+Day 3: [Mirror et Job System](2024_07_03)  
+Day 4: [LOD et Optimisation](2024_07_04)  
+Day 5: [Android XR ](2024_07_05)  
 
 **Designer**  
-Day 1: [Les bases de la XR avec Meta](2024_07_16.md)  
-Day 2: [Bonjour Unity XR](2024_07_17.md)  
-Day 3: [XR et l'industrie](2024_07_18.md)  
+Day 1: [Les bases de la XR avec Meta](2024_07_16)  
+Day 2: [Bonjour Unity XR](2024_07_17)  
+Day 3: [XR et l'industrie](2024_07_18)  
 
 
 ## Plan de l'atelier
