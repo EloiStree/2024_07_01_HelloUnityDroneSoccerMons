@@ -37,7 +37,7 @@ Day 3: [XR et l'industrie](2024_07_18.md)
   - Interagir via websocket et inisation à ce qu'est une clé RSA
   - Apprendre des trucs et astuces sur les rotations et pratiquer en déplacent le drone.
 - Via un package de broadcast en Mirror donné, apprendre à afficher les autres drones via des triangles avec le Job System de Unity (pas d'ESC)
-  - S'abonner un server Mirror via package. (apprendre les bases d'un jeu en réseaux sans en faire un)
+  - S'abonner à un server Mirror via package. (apprendre les bases d'un jeu en réseaux sans en faire un)
   - Exercice pratique pour créé un Mesh de triangle qui bouge via le job system de Unity3D.
 - Apprendre à maitriser différentes techniques d'optimisation pour la XR focus sur les LOD.
   - Cours théorique sur différentes techniques d'optimisation et focus sur le LOD, les Draw Mesh et les imposteurs
