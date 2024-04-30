@@ -56,7 +56,7 @@ Day 3: [XR et l'industrie](2024_07_18.md)
 - Pratiquer avec Unity3D la création une première application XR en prolongeant l'exercice des développeurs.
   - Démonstration de comment créer une appication XR avec Unity3D
   - "Hello Cube" Apprendre à builder une APK d'un cube en XR
-  - Pratiquer la création d'un package de niveau pour drone à l'aide d'un outil du package manager.
+  - Pratiquer la création d'un package de niveaux pour drones à l'aide d'un outil du package manager.
   - Exporter le package créé  sur GitHub pour une utilisation dans un projet de groupe.
 - Exploration de l'utilisation de la réalité mixte dans l'industrie et découvertes des boîtes à outils disponibles.
   - Histoire de la VR de 2014 à 2024 et son utilisation dans l'industrie
