@@ -69,3 +69,4 @@ Day 3: [XR et l'industrie](2024_07_18.md)
 > La dernière fois que j'ai mentionné que je pouvais parler d'Unity et de la réalité virtuelle pendant des mois, cela s'est finalement transformé en un cours de 5 mois. L'objectif de cette formation n'est pas 
  d'aborder tous les aspects, car l'informatique est un domaine qui demande une vie entière d'apprentissage.
 
+> ⚠️ Important : Ce cours ne couvre pas les pratiques actuelles de création d'applications en XR, car celles-ci évoluent littéralement tous les 6 mois. Il est impossible de rester constamment à jour sans être activement impliqué dans le domaine. Ce n'est pas ma situation. Il existe des YouTubers spécialisés dans ce domaine, et tout cours construit sur ce sujet se référera de toute façon à eux.
