@@ -79,5 +79,20 @@ Vous pouvez trouver ici un document que j'utilisai en 2017 sur le sujet:
 [https://docs.google.com/spreadsheets/d/1TI_-X7T4Dh67LKkINNmpfvuofxn3RCUhHVNInaRRUsw/edit?pli=1#gid=0](https://docs.google.com/spreadsheets/d/1TI_-X7T4Dh67LKkINNmpfvuofxn3RCUhHVNInaRRUsw/edit?pli=1#gid=0)  
   
 Une autre Google Sheet sera fait où pour voir quel point de la certification peu être abordé durant ce cours.  
-[ Ajouter le lien ici plus tard ]
+[ Ajouter le lien ici plus tard ]  
+[Notes précédentes sur le sujet](https://github.com/EloiStree/HelloUnity/wiki/TF%23024)  
+
+
+## Orthographe et anglais
+
+Toute ma vie, je n'ai jamais réussi à écrire correctement.   
+C'est pourquoi je n'ai jamais fait une carrière d'enseignant officiellement (^^' ).  
+Exemple : Y a-t-il un "p" ou deux "pp" dans "développeur", en anglais et en français...  
+Aucune idée, faut que je regarde sur google.  
+
+Cela n'excuse en rien la situation, mais je ferai de mon mieux avec notre nouvel ami ChatGPT. 
+Mes excuses d'avance à ce sujet.
+
+Quant à l'anglais, hormis mes formations en Belgique, je travaille toujours en anglais.
+Beaucoup de mes documents sont donc rédigés dans cette langue. 
 
