@@ -1,34 +1,34 @@
 # 2024_07_01: Hello Unity Shield Drone
 
-L'idée: pratiquer Unity3D par le jeu
-L'objectif: préparer à utiliser les compétences apprisent en entreprise.
-Comment: par la pratique sur un jeu multijoueur et l'utilisation du package manager.
+L'idée: pratiquer Unity3D par le jeu  
+L'objectif: préparer à utiliser les compétences apprisent en entreprise.  
+Comment: par la pratique sur un jeu multijoueur et l'utilisation du package manager.  
 
 
-**Developeur:**
-Mon objectif est de m'amuser avec vous sur la pratique de Git, les rotations, les réseaux et l'optimiation pour casque XR.
-Créer des applications sur les Quests, Android en général, demande de parler ensemble d'optimisation.
+**Developeur:**  
+Mon objectif est de m'amuser avec vous sur la pratique de Git, les rotations, les réseaux et l'optimiation pour casque XR.  
+Créer des applications sur les Quests, Android en général, demande de parler ensemble d'optimisation.  
 
-**Designer:**
-Apprendre les bases de ce qu'est la XR et pratiquer via la mise en place d'un circuit de drones créé à 12 via le package manager.
+**Designer:**  
+Apprendre les bases de ce qu'est la XR et pratiquer via la mise en place d'un circuit de drones créé à 12 via le package manager.  
 
-**Developeur:**
-Day 1: [Git Package](2024_07_01.md)
-Day 2: [Webscoket et Rotation](2024_07_02.md)
-Day 3: [Mirror et Job System](2024_07_03.md)
-Day 4: [LOD et Optimisation](2024_07_04.md)
-Day 5: [Android XR ](2024_07_05.md)
+**Developeur:**    
+Day 1: [Git Package](2024_07_01.md)  
+Day 2: [Webscoket et Rotation](2024_07_02.md)   
+Day 3: [Mirror et Job System](2024_07_03.md)  
+Day 4: [LOD et Optimisation](2024_07_04.md)  
+Day 5: [Android XR ](2024_07_05.md)  
 
 **Designer**
-Day 1: [Les bases de la XR avec Meta](2024_07_16.md)
-Day 2: [Bonjour Unity XR](2024_07_17.md)
-Day 3: [XR et l'industrie](2024_07_18.md)
+Day 1: [Les bases de la XR avec Meta](2024_07_16.md)  
+Day 2: [Bonjour Unity XR](2024_07_17.md)  
+Day 3: [XR et l'industrie](2024_07_18.md)  
 
 
 ## Plan de l'atelier
-
-**Developeur:**
-![image](https://github.com/EloiStree/2024_07_01_HelloUnityShieldDrone/assets/20149493/1594a8ae-438c-4737-8c00-1310653dfc28)
+  
+**Developeur:**  
+![image](https://github.com/EloiStree/2024_07_01_HelloUnityShieldDrone/assets/20149493/1594a8ae-438c-4737-8c00-1310653dfc28)  
 
 - Apprendre à créer des boites à outils avec Git et Unity Package manager
   - Créer son drone et importer celui des autres élèves.
@@ -47,7 +47,7 @@ Day 3: [XR et l'industrie](2024_07_18.md)
   - Apprendre à builder l'exercice de la semaine sur le casque donné lundi, si pas déjà fait en auto-didacte.
 
 
-**Designer**
+**Designer**  
 - Apprendre les bases de la VR/XR : passé, présent, futur ?
  - Comprendre ce qu'est la VR/XR
  - S'assurez que tout le monde à tester un à deux casques présents.
