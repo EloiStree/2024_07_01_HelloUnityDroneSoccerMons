@@ -99,3 +99,6 @@ Mes excuses d'avance à ce sujet.
 Quant à l'anglais, hormis mes formations en Belgique, je travaille toujours en anglais.
 Beaucoup de mes documents sont donc rédigés dans cette langue. 
 
+
+# Le code ça prend du temps
+![image](https://github.com/EloiStree/2024_07_01_HelloUnityShieldDrone/assets/20149493/05f5c159-1f51-4810-ab8e-6fe85af7cc32)
