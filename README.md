@@ -33,7 +33,8 @@ Day 3: [XR et l'industrie](WorkshopPerDay/2024_07_18.md)  ([I](https://github.co
 - Apprendre à créer des boites à outils avec Git et Unity Package manager
   - Créer son drone et importer celui des autres élèves.
   - Créer une case de 16x16 d'un circuit pour drone via un package donner.
-- Apprendre à bouger un drone via websocket sur un multi-joueur via Discord.
+- Apprendre les rotations par le fait de bouger un drone en réseaux.
+  - Interagic via UDP sur un client local
   - Interagir via websocket et inisation à ce qu'est une clé RSA
   - Apprendre des trucs et astuces sur les rotations et pratiquer en déplacent le drone.
 - Via un package de broadcast en Mirror donné, apprendre à afficher les autres drones via des triangles avec le Job System de Unity (pas d'ESC)
