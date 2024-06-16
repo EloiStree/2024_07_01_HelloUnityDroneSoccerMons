@@ -81,3 +81,43 @@ Fichier : 'manifest.json'
 }
 ```
 
+
+```
+{
+  "dependencies": {
+    "be.eloistree.digitalscoreandclock": "https://github.com/EloiStree/2023_02_17_DigitalScoreAndClock.git",    
+    "be.eloistree.rootsofknowledgedronecar": "https://github.com/EloiStree/2023_02_19_RootsOfKnowedgeDrone.git",
+    "be.eloistree.droneracestepmesh": "https://github.com/EloiStree/2024_06_31_DroneRaceStep.git",
+
+    "be.eloistree.droneracesample":"https://github.com/EloiStree/2024_06_31_DroneRaceStepSample.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.devname.racename":"https://github.com/YourName/YourRacePackage.git",
+    
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    "be.designname.racename":"https://github.com/YourName/YourRacePackage.git",
+    
+
+  }
+}
+
+```
