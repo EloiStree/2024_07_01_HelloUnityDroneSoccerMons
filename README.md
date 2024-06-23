@@ -112,6 +112,6 @@ Beaucoup de temps durant la construction de cet atelier a été perdu sur l'étu
 Mon but était d'explorer une alternative aux Jobs System et aux Compute Shaders de Unity... 
 https://github.com/EloiStree/HelloRustBending  
 Mais de bout de code en bout de code...  
-[![image](https://github.com/EloiStree/2024_07_01_HelloUnityDroneSoccerMons/assets/20149493/f5826e68-5db9-4bac-98b1-aa63a72e5b65)](https://youtu.be/AbSehcT19u0)
+[![image](https://github.com/EloiStree/2024_07_01_HelloUnityDroneSoccerMons/assets/20149493/6e86e171-d9be-4c4f-bf94-e30a37bb53d5)](https://youtu.be/AbSehcT19u0)
 [https://youtu.be/AbSehcT19u0](https://youtu.be/AbSehcT19u0)
 
