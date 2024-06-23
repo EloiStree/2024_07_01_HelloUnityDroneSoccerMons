@@ -10,7 +10,7 @@ Mon objectif est de m'amuser avec vous sur la pratique de Git, les rotations, le
 Créer des applications sur les Quests, Android en général, demande de parler ensemble d'optimisation.  
 
 **Designer:**  
-Apprendre les bases de ce qu'est la XR et pratiquer via la mise en place d'un circuit de drones créé à 12 via le package manager.  
+Apprendre les bases de ce qu'est la XR et pratiquer git (légèrement) via la mise en place d'un circuit de drones créé à 12 via le package manager.  
 
 **Developeur:**    
 Day 1: [Git Package](WorkshopPerDay/2024_07_01.md)  ([I](https://github.com/EloiStree/2024_07_01_HelloUnityShieldDrone/issues/2))  
