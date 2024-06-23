@@ -103,3 +103,15 @@ Beaucoup de mes documents sont donc rédigés dans cette langue.
 
 # Le code ça prend du temps
 ![image](https://github.com/EloiStree/2024_07_01_HelloUnityShieldDrone/assets/20149493/05f5c159-1f51-4810-ab8e-6fe85af7cc32)
+
+
+
+# Rust Note...
+
+Beaucoup de temps durant la construction de cet atelier a été perdu sur l'étude de Rust et de Bend.
+Mon but était d'explorer une alternative aux Jobs System et aux Compute Shaders de Unity... 
+https://github.com/EloiStree/HelloRustBending  
+Mais de bout de code en bout de code...  
+[![image](https://github.com/EloiStree/2024_07_01_HelloUnityDroneSoccerMons/assets/20149493/f5826e68-5db9-4bac-98b1-aa63a72e5b65)](https://youtu.be/AbSehcT19u0)
+[https://youtu.be/AbSehcT19u0](https://youtu.be/AbSehcT19u0)
+
