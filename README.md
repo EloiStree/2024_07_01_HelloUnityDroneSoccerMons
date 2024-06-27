@@ -3,8 +3,9 @@
 > Don't do multiplayer, multiplatform XR games!!!     
 > This workshop is about teaching XR and communication between applications.  
 > It not a tutorial about creating multiplayer games.      
-> If you do, you are shooting yourself in the foot. It is a golden bullet.      
-> But is it worth your foot and maybe your life?     
+> If you do, you are shooting yourself in the foot.
+> It is a big golden bullet.      
+> Is it worth your foot and maybe your life ?     
 >
 > On that note :)  
 > Let's start trying to do something stupid:  
