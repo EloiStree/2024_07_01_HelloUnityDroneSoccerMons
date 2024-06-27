@@ -12,7 +12,7 @@
 
 -------------------
 
-# 2024_07_01: Hello Unity Shield Drone
+# 2024_07_01: Hello Unity Multi Drone
 
 L'idée: pratiquer Unity3D par le jeu  
 L'objectif: préparer à utiliser les compétences apprisent en entreprise.  
