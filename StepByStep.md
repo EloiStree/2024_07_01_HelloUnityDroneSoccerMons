@@ -115,8 +115,8 @@ Bonus 8x8 et le dossier resource (si on a le temps):
       - [ ]  C'est pour cela que le "trou" dans le réseaux sera fait par le server héberger du jeu et pas les utilisateurs
       - [ ]  Example: On ne pourra pas demander à Technocité d'ouvrir un port ou de diminuer sa sécurité.
    - [ ] Allons directement dans la pratique.
-     - [ ] Je vais héberger un [websocket server](https://github.com/EloiStree/2024_05_17_BasicPythonUdpWebsocketIID/blob/main/SendWebsocket/SendWebsocket.py) sur mon ordinateur
-     - [ ] Via Chat GPT généré un websocket client pour m'envoyé des entiers en bytes little endian sur ws://192.168.1.NNN:8765
+     - [ ] Je vais héberger un [websocket server](https://github.com/EloiStree/2024_05_17_BasicPythonUdpWebsocketIID/tree/main/SendWebsocket) sur mon ordinateur
+     - [ ] Via Chat GPT généré un websocket client pour m'envoyé des entiers en bytes little endian sur ws://192.168.1.NNN:4513
      - [ ] Notons qu'en réseaux il y a une notion de masque qui permet de n'accepter des messages que d'un zone réseaux
        - [ ] 127.0.0.1 et localhost représent votre ordinateur
        - [ ] 0.0.0.0 représent un address qui vient de n'importe où
@@ -126,11 +126,12 @@ Bonus 8x8 et le dossier resource (si on a le temps):
        - [ ]  Dans votre code, envoyé des entier LE en bytes et votre Nom Prénom en text.
      - [ ] J'attends d'avoir 12 nom prénom et un entier le avant de continuer.
      - [ ] Maintenant que je l'ai fait localement avec vous, je vais héberger le code sur le PC chez moi.
-     - [ ] Sauf si l'IP public change: ws://192.168.1.NNN:8765
+     - [ ] Sauf si l'IP public change: 'ws://81.240.94.97:4513' 
        - [ ] Comment avoir l'address si l'IP public change ?
          - [ ]  Je stock l'IP de mon relay [ici](https://github.com/EloiStree/IP/blob/main/RELAY/HOME_IP.txt)
          - [ ]  Et le websocket de IID (voir plus tard) [ici](https://github.com/EloiStree/IP/blob/main/IIDWS/SERVER.txt) 
      - [ ] Adapter votre code pour pouvoir cibler un server 
-
+- [ ] Vous arrivez à faire une connection c'est bien... Mais il est où le mot de passe ?
+  - [ ]   
 
 
