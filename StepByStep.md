@@ -73,16 +73,64 @@ Bonus 8x8 et le dossier resource (si on a le temps):
   - [ ] Envoyé l'entier 1201100121 (12 01 100 121)
     - [ ] Input Type:12   Note:100 Channel: 01  Velocité: 121 
   - [ ] Pourquoi on envoit pas just "Note:10 Velocity:125 Channel:15" ou "N:10 V:125 C:2"
-    - [ ] Un entier faire toujours 4 bytes contre 27 et 13 dans les examples données
+    - [ ] Un entier fait toujours 4 bytes contre 27 et 13 dans les examples données
     - [ ] Vous pouvez le faire tant que vous ne travailler pas avec du Bluetooth
       - [ ] Le Bluetooth est très lent à la transmission => latence et traffic
       - [ ] Example avec XInput Arduino 'AA' [Video](https://youtu.be/uG8gqFLLKuY)
+      - [ ] C'est quoi du UART
+      - [ ] C'est quoi un Port Série
+      - [ ] C'est quoi la Baud Rate
     - [ ] Vous pouvez le faire tant que vous n'avez pas un server AWS, Azure ou Google
       - [ ] Chaque byte vous sera facturé
       - [ ] Chaque Watt vous sera facturé
-  - [ ] Indirectement Mirror et Photon utiliser la même technique avec le RPC et Command
-  - [ ]         
-
+- [ ] Indirectement Mirror et Photon utiliser la même technique avec le RPC et Command
+  - [ ] C'est quoi Mirror ?
+  - [ ] C'est quoi UNet
+  - [ ] C'est quoi Photon ?
+  - [ ] C'est quoi TNet ?
+  - [ ] C'est quoi MQTT ?
+  - [ ] Tu aurais pas oublier de nous expliquer ce qu'est un TCP ?
+  - [ ] C'est quoi la différence entre un TCP et UDP ?
+  - [ ] Il y a plus facile à utiliser que le TCP, le websocket
+  - [ ] Example de Websocket: les Cloud Var de scratch
+    - [ ] Un jeu multijoueur en 5 minutes: [https://scratch.mit.edu/projects/966307753/](https://scratch.mit.edu/projects/966307753/editor/)
+    - [ ] Pourquoi les clouds var de scratch son accessible seulement aux utilisateurs "valider" ?
+    - [ ] Si vous pouvez envoyé un entier, vous pouvez envoyé du text utf8,
+      - [ ] si vous pouvez envoyé un text, vous pouvez envoyé de fichier
+         - [ ] si vous pouvez envoyé un fichier, vous pouvez envoyé des images et vidéos
+         - [ ] si vous pouvez envoyé du text, vous pouvez aussi faire de l'injection
+    - [] Ca leur coute, c'est non sécurisé et ça peu controlabe sans vérification humain
+      - [] En gros: "Never Trust the User"
+- Pourquoi je vous parle de Websocket ?
+  - Avec de l'UDP, vous pouvez m'envoyé un message, mais pour répondre faut que vous ouvriez un port du partfeu à la main.
+  - Avec de l'UDP, vous pouvez m'envoyé des messages, mais je ne peux pas couper la connection (vous kick ou vous bannir)
+  - L'UDP ne fonctionne pas sur les navigateurs webs !
+  - [ ] Avez vous déjà entendu parler de `Port Forwarding`
+    - [ ] L'UDP est pratique localement et sur la machine de l'utilisateur
+    - [ ] L'UDP est pratique pour communiquer d'un application à un autre sur le même PC
+      - [ ] Bien qu'il existe une autre méthode plus efficace les "memory files"
+    - [ ] Les Port Fowarding est le fait d'ouvrir un port sur votre routeur et de rediriger les messages vers un port d'un ordinateur ciblé
+      - [ ]  C'est par example comme cela que vous pouez héberger des serveurs de jeux: minecraft, battlefield et autres.
+      - [ ]  Le problème de cette étape est quel demande des droits d'administrateurs, un savoir faire et est risqué pour votre réseaux.
+      - [ ]  C'est pour cela que le "trou" dans le réseaux sera fait par le server héberger du jeu et pas les utilisateurs
+      - [ ]  Example: On ne pourra pas demander à Technocité d'ouvrir un port ou de diminuer sa sécurité.
+   - [ ] Allons directement dans la pratique.
+     - [ ] Je vais héberger un [websocket server](https://github.com/EloiStree/2024_05_17_BasicPythonUdpWebsocketIID/blob/main/SendWebsocket/SendWebsocket.py) sur mon ordinateur
+     - [ ] Via Chat GPT généré un websocket client pour m'envoyé des entiers en bytes little endian sur ws://192.168.1.NNN:8765
+     - [ ] Notons qu'en réseaux il y a une notion de masque qui permet de n'accepter des messages que d'un zone réseaux
+       - [ ] 127.0.0.1 et localhost représent votre ordinateur
+       - [ ] 0.0.0.0 représent un address qui vient de n'importe où
+     - [ ] Text vs Binaire
+       - [ ]  En UDP, vous n'envoyé que du binaire et on peu le traduire en text si on le veut
+       - [ ]  En Websocket, vous pouvez notifier que vous envoyé du text ou du binaire
+       - [ ]  Dans votre code, envoyé des entier LE en bytes et votre Nom Prénom en text.
+     - [ ] J'attends d'avoir 12 nom prénom et un entier le avant de continuer.
+     - [ ] Maintenant que je l'ai fait localement avec vous, je vais héberger le code sur le PC chez moi.
+     - [ ] Sauf si l'IP public change: ws://192.168.1.NNN:8765
+       - [ ] Comment avoir l'address si l'IP public change ?
+         - [ ]  Je stock l'IP de mon relay [ici](https://github.com/EloiStree/IP/blob/main/RELAY/HOME_IP.txt)
+         - [ ]  Et le websocket de IID (voir plus tard) [ici](https://github.com/EloiStree/IP/blob/main/IIDWS/SERVER.txt) 
+     - [ ] Adapter votre code pour pouvoir cibler un server 
 
 
 
