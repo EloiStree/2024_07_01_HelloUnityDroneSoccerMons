@@ -54,4 +54,35 @@ Bonus 8x8 et le dossier resource (si on a le temps):
 
 ----------
 
-# Day 2:
+# Day 2: UDP, Websocket, RSA et IID
+
+- [ ] Sur mon ordinateur tourne ce script: [Window Midi Note](https://github.com/EloiStree/2024_05_14_IntegerIndexDateToRemoteControl/blob/main/Python/Gate2Device/Integer_2_WindowMidiNote.py)
+- [ ] A l'aide de "ipconfig" sur window, je peux vous afficher l'addresse IP local de mon ordinateur
+- [ ] Mes parefeux sont déactivé pour l'exercice
+- [ ] A l'aide de Chat GPT, créer un script dans votre language préféré pour envoyé des messages UDP sur 192.168.1.NNN:7005
+- [ ] Cela devrait ressembler à ceci [Send UDP](https://github.com/EloiStree/2024_05_17_BasicPythonUdpWebsocketIID/tree/main/SendUDP)
+- [ ] On voit vos messsages mais ça ne joue pas de la music.
+  - [ ] C'est quoi un bit ?
+  - [ ] C'est quoi un byte ?
+  - [ ] C'est quoi un tableau de bytes ?
+  - [ ] Savez vous compter en binaire ?
+  - [ ] C'est quoi la différence en un float et un integer ?
+  - [ ] C'est quoi un integer niveau des bits ?
+  - [ ] C'est quoi le format "little endian"
+  - [ ] Demander à Chat GPT comment envoyé un entier en little endian sur l'address UDP
+  - [ ] Envoyé l'entier 1201100121 (12 01 100 121)
+    - [ ] Input Type:12   Note:100 Channel: 01  Velocité: 121 
+  - [ ] Pourquoi on envoit pas just "Note:10 Velocity:125 Channel:15" ou "N:10 V:125 C:2"
+    - [ ] Un entier faire toujours 4 bytes contre 27 et 13 dans les examples données
+    - [ ] Vous pouvez le faire tant que vous ne travailler pas avec du Bluetooth
+      - [ ] Le Bluetooth est très lent à la transmission => latence et traffic
+      - [ ] Example avec XInput Arduino 'AA' [Video](https://youtu.be/uG8gqFLLKuY)
+    - [ ] Vous pouvez le faire tant que vous n'avez pas un server AWS, Azure ou Google
+      - [ ] Chaque byte vous sera facturé
+      - [ ] Chaque Watt vous sera facturé
+  - [ ] Indirectement Mirror et Photon utiliser la même technique avec le RPC et Command
+  - [ ]         
+
+
+
+
