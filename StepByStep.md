@@ -13,6 +13,10 @@ Sur le chemin, deux modes de jeux seront visités :
 
 # Day 1: Créer un circuit à douze
 
+Main Git: 
+- https://github.com/EloiStree/2024_06_31_DroneRaceStep
+- https://github.com/EloiStree/2023_02_19_RootsOfKnowledgeDrone
+
 - [ ] Créer un compte GitHub
 - [ ] Créér un répertoire vide avec un nom en rapport avec l'exercice
 - [ ] Ajouter votre répertoire en utilisant un "pull request" [ici](https://github.com/EloiStree/2024_07_01_HelloUnityDroneSoccerMonsManifest/blob/main/ListOfDroneRacePackageGit.txt): 
@@ -54,7 +58,114 @@ Bonus 8x8 et le dossier resource (si on a le temps):
 
 ----------
 
-# Day 2: UDP, Websocket, RSA et IID
+# Day 2, matin : UDP, Websocket, RSA et IID Bouger des drones
+
+Main Git: https://github.com/EloiStree/2024_05_11_GateIID_WS_UnityProject
+
+On va faire une course de drones sur un jeu héberger sur Shadow.tech avec votre circuit d'hier
+
+
+- Connectez vous sur le Discord [Integer Game](https://discord.gg/YK7z8p9v): https://discord.gg/YK7z8p9v
+  - Télécharger une "porte" d'entier:  [Gate IID WS Unity](https://github.com/EloiStree/2024_05_11_GateIID_WS_UnityProject) [Release](https://github.com/EloiStree/2024_05_11_GateIID_WS_UnityProject/releases)
+    - Si vous aimer le Python: [Gate IID WS Python](https://github.com/EloiStree/2024_05_17_BasicPythonUdpWebsocketIID)
+  - Lancer la 'Gate' et laisser la tourner en tache de fond
+    - Elle va vous servir à envoyer des entiers en étant authentifier sur un server mutualisé grace à une clé RSA qui vous attribue un "Network ID"
+      - On va prendre le temps de comprendre cette phrase (^^' ) Vous inquiétez pas.
+  - Créé un projet Unity3D vide pour Android
+  - Import the Action Input System de Unity: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
+  - Importer une boite à outils pour envoyé des messages UDP: [UDP Thread Sender](https://github.com/EloiStree/2020_11_29_UDPThreadSender)
+  - Je vous ai préparé des scripts dont: QuickBytePushMono_SendByteToSoloTarget
+  - Convertiser un entier en 4 bytes en format little endian et envoyé les sur la cible 127.0.0.1:3617
+  - Vous deviez voir apparaitre des nombres sur Sent et sur Received sur la gate.
+  - Envoyé le nombre 123456789 suivit de 987654321. Puis envoyé le nombre -199887766
+  - Le drone qui tourne à droit vers le haut comme une toupie c'est vous :)-
+  - Envoyé 0 si vous voulez l'arrêter. Suivit de 000010000 pour le faire descendre
+    - TY JLH JLV JRH JRV : Drone ID, Left Right Rotation, Down Up, Left Right, Backward Forward
+    - 0=0, 01 = -1f, 99 =1f  soont des pourcentages de -1f à 1f (de 01 à 99)
+    - -20 tout mes drones
+    - -N The N drone que je possède
+    - +N Ce drone précisément si je le possède
+    - L'idée ici est de compresser les données d'un manette sur 4 bytes
+ - Télécharger cette boite à outil: https://github.com/EloiStree/2024_04_07_PushGenericAsIntegerDate.git
+   - Celle-ci contient un préfab Gamepad Drone 16
+   - Jetez y un coup d'oeil
+   - Essayer de relier les deux librairies ensemble pour bouger votre drone dans le jeu
+ - Trop facile ?
+   - Pendant que je vérifie que tout le groupe arrive à faire l'exercice
+   - Regardez deux trois vidéos de joysticks pour Android et ajouter les à votre projet
+ - Publier sur Android ?
+   - En fonction du temps, on peut vite le faire ou attendre vendredi  
+
+# Day 2, après midi:
+
+Travaillons vos rotations (^-^-)
+
+- Le piège ! C'est le rotation.
+- Les bases:
+  - [ ] C'est quoi Euler ?
+  - [ ] C'est quoi un Quaternion ?
+  - [ ] C'est quoi Debug Draw ?
+  - [ ] Transform.forward
+  - [ ] Quaternion*Forward
+  - [ ] Quaternion.LookAt
+  - [ ] C'est quoi la commutativité des Quaternions ?
+  - [ ] C'est quoi l'angle opposé d'un quaternion ?
+  - [ ] Transform.InverseTransform ?
+  - [ ] Direction et magnitude
+  - [ ] Quaternion.Lerp
+- Meilleur conseil de mon professeur de math M. Widar
+  - Recenter un problème relativement. [E_RelocationUtility](https://github.com/EloiStree/2021_10_03_EloiGeneralToolbox/blob/main/Runtime/E_RegexUtility.cs)
+    - On y perd en performance, mais c'est tellement plus efficace pour comprendre ce que l'on fait.
+      - Ramener la rotation sur l'axe zero
+      - Dessiner deux trois axes de couleurs
+      - Retourner les données à leur origine
+      - Je vous montre, mais vous allez vite pratiqué ^^...
+- Créé un projet vide Unity
+  - Ajouter ceci au manifest.json
+```
+    "be.eloistree.udpthreadsender": "https://github.com/EloiStree/2020_11_29_UDPThreadSender.git",
+    "be.eloistree.downloadserveripfrompage": "https://github.com/EloiStree/2024_06_15_DownloadServerIpFromPage.git",
+    "be.eloistree.dronemultistructandparser": "https://github.com/EloiStree/2024_06_25_HelloDroneMultiStructAndParser.git",
+    "be.eloistree.generatestorersakey": "https://github.com/EloiStree/2024_04_04_GenereteRsaKeyInUnity.git",
+    "be.eloistree.iidwstunnelingrsa": "https://github.com/EloiStree/2024_04_04_UnityServerTunnelingRSAUnity.git",
+    "be.eloistree.mirrordronesoccerstartpack": "https://github.com/EloiStree/2024_06_11_HelloMirrorDroneMultiStartPackUnity.git",
+    "be.eloistree.pushgenericintegerdate": "https://github.com/EloiStree/2024_04_07_PushGenericAsIntegerDate.git",
+    "be.eloistree.udpthreadsender": "https://github.com/EloiStree/2020_11_29_UDPThreadSender.git",
+    "com.unity.inputsystem": "1.7.0",
+    
+```
+ 
+
+
+# Day 3: Mirror ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------
+
+
+# Achive
+
+----------------
+
+Trop long:
 
 - [ ] Sur mon ordinateur tourne ce script: [Window Midi Note](https://github.com/EloiStree/2024_05_14_IntegerIndexDateToRemoteControl/blob/main/Python/Gate2Device/Integer_2_WindowMidiNote.py)
 - [ ] A l'aide de "ipconfig" sur window, je peux vous afficher l'addresse IP local de mon ordinateur
@@ -132,6 +243,68 @@ Bonus 8x8 et le dossier resource (si on a le temps):
          - [ ]  Et le websocket de IID (voir plus tard) [ici](https://github.com/EloiStree/IP/blob/main/IIDWS/SERVER.txt) 
      - [ ] Adapter votre code pour pouvoir cibler un server 
 - [ ] Vous arrivez à faire une connection c'est bien... Mais il est où le mot de passe ?
-  - [ ]   
-
+  - [ ]   Pour pouriez stocker un mot de passe sur le server et le donner aux utilisateurs
+    - [ ] C'est quoi un SHA256 ? [Tester](https://emn178.github.io/online-tools/sha256.html)
+      - [ ] 'Ne stocker jamais les mots de passe sur le server ^^'
+      - [ ] Pour vérifier, il lui faudra envoyé sur le réseaux son nom et mot de passe
+    - [ ] Une autre solution est de s'accorder sur un [Caesar Cipher](https://www.dcode.fr/chiffre-cesar)
+      - [ ] Mais on c'est pas idéal ( encore moi à notre époque avec le machine learning )
+    - [ ] On pourrait crypter un message avec un Cipher++ et stocquer le paramètre sur notre ordinateur
+      - [ ] C'est le concept d'une clé privé comme pour [AES](https://www.youtube.com/watch?v=O4xNJsjtN6E)
+      - [ ] Sa nous permet de crypter et de signer des messages...
+      - [ ] Mais je dois avoir la clé chez moi et vous chez vous... Pas idéal
+    - [ ] Ce que l'on utilise depuis 1977, c'est le concept de RSA qui utilise une clé public et clé privé
+      - [ ] Vous avez une clé privé que vous garder secret et j'ai une clé publique que vous pouvez partager
+      - [ ] Ca vous permet d'encrypter des messages que je peux décrypter
+      - [ ] Ca vous permet aussi de signer des documments.
+        - [ ]   C'est quoi la différence en encrypter et signer ?
+          - [ ]   Encrypter = mélanger avec la clé public et Décrypter = réordonner avec un clé privé du destinataire
+          - [ ]   Signer = utiliser SHA256 pour créé un petit text basé sur un grand text avec la clé privé ensuit vérifier que ça produit un clé public donné
+      - [ ] RSA 512 vs 1024 vs 2048 vs ... Plus la taille et grand plus il est dur à casser
+        - [ ] Mais du coup, plus long encrypter et decrypter.
+          - [ ]  Ca posse problème si vous voulez un jeu sans latence et sécurisé
+        - [ ] Le RSA c'est bien... Mais c'est aussi très complexe à paramètrer.
+          - [ ] Et je suis tomber sur cette vidéo la semaine passé : ["Fuck RSA"](https://www.youtube.com/watch?v=lElHzac8DDI)
+          - [ ] Il est vrai que c'est pas un sujet simple.
+      - [ ] Alternative? Elliptic Curve Cryptography [Wiki](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)
+        - [ ] Beaucoup plus simple à utiliser, mieux protégé , paire de clé public privé ...
+        - [ ] C'est bon du coup, on utilise ECC ? Bah, oui et non. Reposer la question dans un décennie
+      - Vous le comprenez, c'est un long sujet: https://www.youtube.com/@Computerphile/search?query=key
+      - Et sujet qui n'attend que d'être mis à terre avec le machine learning et les calcules quantiques
+- [ ] Et donc ... On fait comment pour s'authentifier pratiquement ?
+  - [ ]  Je vous proposerai bien un exercice avec ECC mais mes outils sont sur RSA 1024
+  - [ ]  Créé un websocket client qui se connect à mon server IID actuel:
+    - [ ] URI: ws://81.240.94.97:4501  [IP](https://github.com/EloiStree/IP/blob/main/IIDWS/SERVER.txt)
+    - [ ] Nous allons procéder à un "handshake"
+    - [ ] En text envoyé 'Hello VOTRE_PUBLIC_KEY_XML_1024'
+    - [ ] Il vous retourne un 'SIGNIN:GUID'
+    - [ ] Il vous faut extraire le GUID et le signer avec votre clé privé en utilisant SHA256 et pkcs1
+    - [ ] Il faut maintenant le retourner 'SIGNED:B64OFGUIDSIGNED'
+      - [ ] B64 quoi ? C'est une conversion de bytes en text et de text en byte utilisant 64 charactères 
+    - [ ] Le server va vérifier votre signature depuis le text
+    - [ ] Si c'est valide, il vous retourne un message 'RSA:Verified' et 'IndexLock:-N'
+      - [ ]  RSA, confirme la find du hanshake. vous avez prouvez que vous être le proriétaire de la clé privé
+      - [ ]  IndexLock c'est votre index sur le server -N (vous êtres un guest) +N (votre clé public est sur le server)
+  - [ ] Je survole la matière pour un simple raison: c'est compliqué ( ^^')
+    - [ ] C'est la raison même de mon project actuel Integer Games et les IID
+      - [ ] Créé un serveur mutualisé pour éviter d'avoir à apprendre à héberger de server
+      - [ ] Créé un format compresser pour partager des évènements ou de petites données d'ordinateur en ordinateur
+    - [ ] J'ai donc des codes prêtes pour vous
+  - [ ] N'oubliez pas que la raison de voir un sujet si chiant avec vous plutot que de faire du jeu.
+     - C'est car j'ai du les utiliser de nombreuses fois dans ma carrière voir ["Pouquoi ce workshop"](https://github.com/EloiStree/2024_07_01_HelloUnityDroneSoccerMons/issues/33)
+     - C'est
+        - "très débile de mettre un server de mail dans un jeu fruit ninja"
+        - "c'est très peu réutilisable de mettre le code d'un kinect dans un jeu directement"
+        - "Les jeux hors store sont très souvent composé de plusieurs ordinateurs locaux sans être un multijoueur"
+        - "Vous aurez besoin de communiquer avec un hardware et ils vous faudra des applications dédiées hors du jeu"
+        - "beaucoup d'API fonction avec des portes en Websocket. Example: LM Studio"
+      
+- [ ] Les gates, Tunnel et Cloud Gaming
+  - [ ] Connaissez vous [Shadow ?](https://support.shadow.tech/fr/articles/introduction-with-shadow-pc-gaming/install-shadow-on-android-tv/64e310046593fd01eb5e826e)
+  - [ ] Connaissez vous [Modl.ai](https://modl.ai) ?
+  - [ ] Connaissez vous ce qu'est le [multiboxing](https://www.youtube.com/@eloistreeraw/search?query=multiboxing) ?
+  - [ ] Avec ce que l'on a étudier, comment ferriez vous pour multiboxer 50-500 AI sur des ordinateurs dans le cloud ?
+  - [ ] Sachant que vous ne pouvez pas ouvrir les portes ou changer la sécurité du réseaux et de la machine
+  - [ ] C'est ce que l'on va faire avec Mordhau :) puis avec notre jeu de drone.
+- [ ] Créé un pr
 
