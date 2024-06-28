@@ -120,8 +120,7 @@ Travaillons vos rotations (^-^-)
       - Dessiner deux trois axes de couleurs
       - Retourner les données à leur origine
       - Je vous montre, mais vous allez vite pratiqué ^^...
-- Créé un projet vide Unity
-  - Ajouter ceci au manifest.json
+-  Ajouter ceci au manifest.json de votre projet de ce matin
 ```
     "be.eloistree.udpthreadsender": "https://github.com/EloiStree/2020_11_29_UDPThreadSender.git",
     "be.eloistree.downloadserveripfrompage": "https://github.com/EloiStree/2024_06_15_DownloadServerIpFromPage.git",
@@ -130,16 +129,88 @@ Travaillons vos rotations (^-^-)
     "be.eloistree.iidwstunnelingrsa": "https://github.com/EloiStree/2024_04_04_UnityServerTunnelingRSAUnity.git",
     "be.eloistree.mirrordronesoccerstartpack": "https://github.com/EloiStree/2024_06_11_HelloMirrorDroneMultiStartPackUnity.git",
     "be.eloistree.pushgenericintegerdate": "https://github.com/EloiStree/2024_04_07_PushGenericAsIntegerDate.git",
-    "be.eloistree.udpthreadsender": "https://github.com/EloiStree/2020_11_29_UDPThreadSender.git",
     "com.unity.inputsystem": "1.7.0",
     
 ```
+- Dans une nouvelle scène, déposer le prefab: Start Pack (Drag Example Prefab)
+  - si le server est lancé, vous deviez avoir un scène avec des drones deux goals circulaires, un balle et deux goals carrés
+    - Vous deviez avoir un script nommé: PullOfNetworkFromBytesMono.cs
+    - Celui-ci vous donne tout les informations sur la partie en cours :) 
+- Sur le serveur est chargé votre niveau de lundi.
+  - Charger dans votre projet le même niveau
+  - Puis essayer à l'aide de code uniquement de bouger le drone
+    - Essayer d'abord sans objectifs, just bouger
+    - Essayer d'atteindre un point dans l'espace
+    - Essayer de faire le circuit
+  - Vous vous sentez d'attaque ;) Bah alors attaquez.
+    - Essayer de pousser la boule dans le goal adverse
+  - L'attaque c'est trop facile ?
+    - Essayer des défendre votre goal en repoussant les drones des autres
+- **Attention !!!** Le but aujourd'hui est principalement de pratiquer les rotations.  
+Vous avez le reste de la journée pour pratiquer.
+On fait un match à la fin du cours.
+
+Le but est vendredi de faire un match en XR 
+- une version humain contre humain
+- une version code contre code à 12 dans le match.
+
+
+# Day 3, matin: Mirror ?
+
+Un cours sur Mirror prend plus qu'une demi journée.
+Mon but n'est pas de donner un cours sur commment faire des multijoueurs locaux.
+Mais se serait dommage de skipper un outils si puissant et open source.
+
+Le but de la matinée est d'explorer ensemble le code.
+Et de parler concept.
+
+- Cloner le projet suivant sur votre ordinateur
+  - Git Code: https://github.com/EloiStree/2024_06_01_HelloMirrorDroneMulti.git 
+  - Nous allons explorer à quoi ressemble un projet Mirror ensemble sans pratiquer directement
+  - Comme vous avez cloner le projet, vous devrez pouvoir 
+
+- Pratiquer le NTP sur Mirror ?
+  - NTP Native Time Protocole permet de se syncrhoniser entre application à 2-60-500 milliseconds
+  - Je vous propose de faire ensemble en live un Gandalf Sax en Mirror pratiquer:
+    - Video: https://www.youtube.com/watch?v=BBGEG21CGo0  
+
+
+# Day 3,  Bullet Hell et job système
+
+Je vais vous apprendre à utiliser un des outils le plus puissant de Unity qui est assez simple à utiliser: Les job système.
+Celui-ci permet d'exploiter tout la puissance de votre CPU.
+
+Pour cela, nous allons pratiquer dans un jeu de survie.
+
+- Retourner dans le projet d'hier.
+  - PullOfNetworkFromBytesMono peu produir des S_LinearProjectilePoolItemCreationEvent
+  - C'est des projectiles à éviter avec votre drone.
+  - Être toucher vous ramène aux points de départ
+  - Le but est de survivre le plus longtemps possible.
+
+Via ce que je vous ai montré:
+- Afficher les astéroides à l'écran
+- Si vous arrivez à les afficher
+  - Pratiquer le fait de détecter de future collision avec votre drone et fait le survivre.
  
+Prenez l'exercice d'affichage aux sérieux car il est la base de l'exercice de demain.
 
 
-# Day 3: Mirror ?
+# Day 3 Bullet Hell ++ et LOD
+
+L'exercice d'aujourd'hui: pratiquer le job système et les LOD.
+Choisissez des techniques d'optimisation dont on vu le matin selon votre niveau.
+
+Le but de l'exercice, travaillez des effets visuels dont le détail change avec la distance.
+Permettant d'avoir du beau malgré la présence de milier de projectile.
+
+Il y a deux challenges à cet exercice:
+- Arrivé à survivre le plus longtemps dans cette enfer de collisions
+- Arrivé à garder son jeu au dessus de 55 FPS le plus longtemps avec des graphiques d'un MVP sur le store.
+  - Utiliser Jimmy pour les testes de performances  [(  ^O^) aaaaaaaAAAAHHH](https://github.com/EloiStree/2020_05_28_JimmyScreamFPS)
 
 
+  
 
 
 
