@@ -32,8 +32,24 @@ Sur le chemin, deux modes de jeux seront visités :
 - [ ] Faite une pause pour décider de la répartition de l'espace qui fait quel zone.
 - [ ] Déplacer votre cube et donner lui un nom prénom à l'espace que vous allez utiliser.
    - [ ] Vous ne pouvez pas utiliser les 8 mètres du centre sur le sol car un terrain de drone soccer y sera.
+- [ ] Ajouter au package manager de vos deux projets cet outil: [Race Steps](https://github.com/EloiStree/2024_06_31_DroneRaceStep)
+- [ ] Utiliser les assets pour former un cours à 12 sans pour autant travailler ensemble
+- [ ] N'oublier pas de push et de pull régulièrement pour voir où en est le niveau.
+- [ ] Utiliser "des cubes et des ronds" si vous désirez dronez un peu de level design pas d'asset store pour le moment.
+- [ ] Histoire de s'amuser ajouter à votre deux projets cet outil: [Roots of knowledge Drone](https://github.com/EloiStree/2023_02_19_RootsOfKnowledgeDrone)
+- [ ] Tester un peu votre scène de test avec le prefab de drone.
+  - [ ] Ajouter vos input au besoin
+- [ ] Assurez vous que sur tout vos points de passage, il y ai le script "DFlagMono_RootTag"
+  - [ ] Assurez vous si vous créé de nouveau prefab avec RootTag que le GUID est différent 
+- [ ] Vérifier que les 12 membres de votre group à réussi à faire l'exercice jusqu'ici.
+- [ ] Nommez 2 intégrateurs qui se porterons garant de la qualité du circuit et du respect des règles de nommage de votre groupe.
 
-
+Bonus 8x8 et le dossier resource (si on a le temps):
+-  [ ] Créér des préfabs d'une taille de 8x8x8 mètre dans Unity et composer des bouts de circuits
+-  [ ] Déposer sur le prefab Drone8x8x8GuidTagMono et Drone8x8x8Mono_WhatToMove
+-  [ ] Déposer tout ces prefabs dans le dossier resource de votre boite à outil
+-  [ ] Déposer le script Drone8x8x8Tag_Corner ou Drone8x8x8Tag_Line pour notifier quel type de cube c'est.
+-  [ ] Utiliser les builder pour généré des circuits
 
 
 ----------
