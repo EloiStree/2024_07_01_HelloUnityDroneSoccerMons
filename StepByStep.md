@@ -25,6 +25,16 @@ Sur le chemin, deux modes de jeux seront visités :
 - [ ] "Add, Commit, Pull, Push" du répertoire Git
 - [ ] Ajouter dans votre projet test votre répertoire grace au project manager de Unity.
 - [ ] Aider les étudiants qui n'y arrivent pas pour que les 12 répertoires soit créé et valide.
+- [ ] Ajouter les 13 répertoires sur le Git Manifest commun à votre project test
+- [ ] Créé une scène Unity dans votre projet test
+- [ ] Déposer les 13 préfabs au centre de votre scène.
+- [ ] Vous devirez maintenant avoir un projet avec 13 cubes mis à des places aléatoires dans votre scène
+- [ ] Faite une pause pour décider de la répartition de l'espace qui fait quel zone.
+- [ ] Déplacer votre cube et donner lui un nom prénom à l'espace que vous allez utiliser.
+   - [ ] Vous ne pouvez pas utiliser les 8 mètres du centre sur le sol car un terrain de drone soccer y sera.
+
+
+
 
 ----------
 
