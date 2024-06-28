@@ -196,7 +196,7 @@ Via ce que je vous ai montré:
 Prenez l'exercice d'affichage aux sérieux car il est la base de l'exercice de demain.
 
 
-# Day 3 Bullet Hell ++ et LOD
+# Day 4 Bullet Hell ++ et LOD
 
 L'exercice d'aujourd'hui: pratiquer le job système et les LOD.
 Choisissez des techniques d'optimisation dont on vu le matin selon votre niveau.
@@ -211,6 +211,18 @@ Il y a deux challenges à cet exercice:
 
 
   
+# Day 5 Android XR 
+
+Journée un peu plus chill.
+
+Le but est d'apprendre à publier votre jeu de cette semaine sur les Quests et autres casques disponibles.
+L'après midi, l'on testera les casques et le jeu Alyx (si pas déjà fait durant la semaine)
+
+Avant de finir la journée, l'on finira par les deux matches promis en début de semaine.
+(Sans les astéroides)
+
+
+
 
 
 
