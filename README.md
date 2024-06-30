@@ -13,6 +13,12 @@
 
 -------------------
 
+# To Do Today 
+
+Que fait-on aujourd'hui: [To Do Today >](https://github.com/EloiStree/2024_07_01_HelloUnityDroneSoccerMons/blob/main/ToDoToday.md)
+
+
+
 # 2024_07_01: Hello Unity Multi Drone
 
 L'idée: pratiquer Unity3D par le jeu  
