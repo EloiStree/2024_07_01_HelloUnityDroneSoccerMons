@@ -39,7 +39,7 @@ Main Git:
 - [ ] Déplacer votre cube et donner-lui un nom prénom à l'espace que vous allez utiliser.
    - [ ] Vous ne pouvez pas utiliser les 8 mètres du centre sur le sol car un terrain de drone soccer y sera.
 - [ ] Ajouter au package manager de vos deux projets cet outil : [Race Steps](https://github.com/EloiStree/2024_06_31_DroneRaceStep).
-- [ ] Utiliser les assets pour former un cours à 12 sans pour autant travailler ensemble.
+- [ ] Utiliser les assets pour former une course à 12 sans pour autant travailler ensemble.
 - [ ] N'oubliez pas de push et de pull régulièrement pour voir où en est le niveau.
 - [ ] Utiliser "des cubes et des ronds" si vous désirez faire un peu de level design, pas d'asset store pour le moment.
 - [ ] Histoire de s'amuser, ajouter à vos deux projets cet outil : [Roots of knowledge Drone](https://github.com/EloiStree/2023_02_19_RootsOfKnowledgeDrone).
@@ -57,6 +57,5 @@ Bonus 8x8 et le dossier resource (si on a le temps) :
 -  [ ] Déposer le script Drone8x8x8Tag_Corner ou Drone8x8x8Tag_Line pour notifier quel type de cube c'est.
 -  [ ] Utiliser les builders pour générer des circuits.
 
----
 
-Si vous avez besoin d'autres corrections ou précisions, n'hésitez pas à me le faire savoir !
+Demain, nous jouerons ensemble dans ce circuit.
