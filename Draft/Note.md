@@ -1,3 +1,5 @@
+# Step by step but not corrected / Sans correction orthographique
+
 Bonjour à vous :)
 
 Le but de l'exercice est de faire vendredi deux matches de Drone Soccer.
