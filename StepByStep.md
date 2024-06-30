@@ -172,7 +172,72 @@ Et de parler concept.
 - Pratiquer le NTP sur Mirror ?
   - NTP Native Time Protocole permet de se syncrhoniser entre application à 2-60-500 milliseconds
   - Je vous propose de faire ensemble en live un Gandalf Sax en Mirror pratiquer:
-    - Video: https://www.youtube.com/watch?v=BBGEG21CGo0  
+    - Video: https://www.youtube.com/watch?v=BBGEG21CGo0
+   
+
+- [ ] C'est quoi un jeu en coop ?
+- [ ] C'est quoi un jeu en coop via Steam ?
+- [ ] c'est quoi un jeu en coop via Photon Quantum ?
+- [ ] C'est quoi Photon ?
+- [ ] C'est quoi UNet ?
+- [ ] C'est quoi TNet ?
+- [ ] C'est quoi la différence entre un jeu en TCP et en UDP ?
+- [ ] C'est quoi la différence entre un jeu peer 2 peer et un jeu client server   
+- [ ] C'est quoi la différence entre un jeu multijoueur avec confiance sur le client ?
+  - [ ] Pourquoi voudrait ton faire confiance au client ?
+- [ ] Que propose Unity pour faire du mutlijoueur ?
+- [ ] C'est quoi Mirror
+  - [ ]  C'est quoi un command ?
+  - [ ] C'est quoi un RPC ?
+  - [ ] C'est quoi un TargetRPC ?
+  - [ ] C'est quoi un SyncVar ?
+  - [ ] C'est quoi un Host
+    - [] Différence entre un Host et un server ?
+  - [ ] C'est quoi un NetworkId ?
+  - [ ] C'est quoi un NetworkMono ?
+  - [ ] C'est quoi un Player prefab ?
+  - [ ] c'est quoi un spawnable prefab ? 
+
+- [ ] Petit exercice Mirror
+  - [ ] Je vais créé un projet Git sur GitHub
+  - [ ] Cloner le projet sur votre ordinateur
+  - [ ] Ajoutons Mirror dans le projet
+  - [ ] Ajoutons un Basic NetworkId
+  - [ ] Créons un prefab pour votre joueur
+  - [ ] Ajoutons un double réseaux pour WebGl
+  - [ ] Sur le joueur, ajoutons un script pour pousser des bytes et des integers IID
+    - [ ] On regarde si on est sur le client
+    - [ ] Si oui, on créé une commande avec un tableau de bytes
+    - [ ] On fait pareil pour un entier
+    - [ ] Pour premettre au server d'écouter à tout les joueurs, nous allons faire un singleton d'écouter
+    - [ ] Nous allons créé un singleton mono pour permettre d'écouter depuis un Unity event.
+    - [ ] Crééons une réaction sur le server en fonction des integers que vous m'envoyé.
+  - [ ] Sur le joueur ajoutons un script qui me permet d'envoyé des bytes à un joueur spécifique.
+  - [ ] Créons un singleton qui permet d'avoir tout les scripts permettant de pusher des bytes
+    - [ ] Poussons un struct compresser en bytes à tout les joueurs 
+      - [ ] Example un frame de 12 avec le tick date du server utc
+  - [ ] Notre but c'est de jouer Gand Alf Sax avec le même timing
+    - [ ] Téléchargeons un vidéo de Gand Alf Sax 
+    - [ ] Ajoutons dans la scène un prefab avec un vidéo Player
+    - [ ] Créons script GandAlfSaxNetworkMono avec un Client RPC start et un var SyncVar
+    - [ ] Si le joueur est sur le server c'est le host et l'on set le time de la vidéo
+    - [ ] Quand un action arrive, lancer la vidéo attendre 0.1 seconds et demander au client de se synchroniser.
+    - [ ] Après 0.6 seconds afficher la vidéo et mettre le volume à N.
+
+  - [ ] Une autre méthode serait de donner un Date NTP depuis de server avec N seconds d'avance
+    - L'idée ici est de bypasser le lag et le perte de milliseconds sur le chemain.
+    - Utiliser le date NTP pour syncrhoniser l'action sur le PC.
+    - Creéons un script NTPActionsNetworkMono sur le joueur
+    - Ajoutons un Server NTP string en SyncVar
+    - Ajoutons un command pour envoyé une action avec un Date NTP + N Ticks
+    - Ajoutons une liste qui ajoute le N Ticks Actions dans la liste.
+      - Note:on pourrait avoir deux commands, un Unity Thread Safe et un Side Thread. 
+    - Une fois la date dépassée dans le Update envoyé un Unity Event de l'action.
+    - Racorder l'évent au délanchement du Gand Alf Sax;
+      - Set video as ready to trigger: Load video  , set timing, pause
+      - Unpause the vidéo 
+  - [ ] Ajoutons un vote, Yes No avec les IID et déclanchons le vidéo quand tout le monde dit Yes.
+
 
 
 # Day 3,  Bullet Hell et job système
