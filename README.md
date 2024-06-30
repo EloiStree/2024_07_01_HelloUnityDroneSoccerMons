@@ -1,15 +1,15 @@
 # WARNING SHOT
 
-> Don't do multiplayer, multiplatform XR games!!!     
-> This workshop is about teaching XR and communication between applications.  
-> It not a tutorial about creating multiplayer games.      
-> If you do, you are shooting yourself in the foot.
-> It is a big golden bullet.      
-> Is it worth your foot and maybe your life ?     
+> Ne faites pas de jeux XR multijoueurs et multiplateformes !!!     
+> Cet atelier est consacré à l'enseignement de la XR et de la communication entre applications.  
+> Ce n'est pas un tutoriel sur la création de jeux multijoueurs.      
+> Si vous le faites, vous vous tirez une balle dans le pied.
+> C'est une grosse balle en or.      
+> Cela vaut-il votre pied et peut-être votre vie ?     
 >
-> On that note :)  
-> Let's start trying to do something stupid:  
-> A multiplayer, multiplatform XR and non-XR game in group.  
+> Sur ce :)  
+> Commençons à essayer de faire quelque chose de stupide :  
+> Un jeu XR et non-XR multijoueur et multiplateforme en groupe.
 
 -------------------
 
