@@ -103,8 +103,6 @@ La formation dans ça globalité à une orientation vers la certification Unity3
 Vous pouvez trouver ici un document que j'utilisai en 2017 sur le sujet:  
 [https://docs.google.com/spreadsheets/d/1TI_-X7T4Dh67LKkINNmpfvuofxn3RCUhHVNInaRRUsw/edit?pli=1#gid=0](https://docs.google.com/spreadsheets/d/1TI_-X7T4Dh67LKkINNmpfvuofxn3RCUhHVNInaRRUsw/edit?pli=1#gid=0)  
   
-Une autre Google Sheet sera fait où pour voir quel point de la certification peu être abordé durant ce cours.  
-[ Ajouter le lien ici plus tard ]  
 [Notes précédentes sur le sujet](https://github.com/EloiStree/HelloUnity/wiki/TF%23024)  
 
 
