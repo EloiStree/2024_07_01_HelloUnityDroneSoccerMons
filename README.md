@@ -53,7 +53,7 @@ Day 3: [XR et l'industrie](WorkshopPerDay/2024_07_18.md)  ([I](https://github.co
 
 - Apprendre à créer des boites à outils avec Git et Unity Package manager
   - Créer son drone et importer celui des autres élèves.
-  - Créer une case de 16x16 d'un circuit pour drone via un package donner.
+  - Créer une case de 8x8 d'un circuit pour drone via un package donner.
 - Apprendre les rotations par le fait de bouger un drone en réseaux.
   - Interagic via UDP sur un client local
   - Interagir via websocket et inisation à ce qu'est une clé RSA
